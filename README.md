@@ -1,4 +1,4 @@
 # shx-bodycam
 Axon Bodycam UI
 
-![image](https://github.com/shinoishere/shx-bodycam/assets/49691112/b7cca113-5ebd-4a9b-adbc-df5b7fc98353)
+![bodycam](https://github.com/shinoishere/shx-bodycam/assets/49691112/684601f1-58fb-4563-80f4-c881b1167919)
