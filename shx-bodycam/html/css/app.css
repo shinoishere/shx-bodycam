@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.axon-container {
+	position: absolute;
+	top: 40px;
+	right: 3px;
+	width: 305px;
+	height: 90px;
+	background-color: rgba(33, 35, 48, 0.8);
+	border-bottom-left-radius: 1vh;
+	border-top-left-radius: 1vh;
+	border-right: .4vh solid #481b91;
+
+	border-bottom: 3px solid #00000047;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 13px;
+	color: #d3d3d3;
+}
+
+.axon-rightside {
+	text-align: right;
+	width: 100%;
+	padding-right: 10px;
+}
+
+.axon-leftside {
+	width: 60px;
+	object-fit: contain;
+	margin-right: 15px;
+}
+
+.Blink {
+	animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+	color: red
+}
+
+@keyframes blinker {  
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+.axon-time {
+	padding-left: 5px;
+}
