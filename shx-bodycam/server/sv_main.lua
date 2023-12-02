@@ -1,9 +1,7 @@
-if Config.Framework == "qbcore" then
+if Config.Framework == "qbcore" or Config.Framework == "qbox" then
     QBCore = exports["qb-core"]:GetCoreObject()
 elseif Config.Framework == "esx" then
     ESX = exports["es_extended"]:getSharedObject()
-elseif Config.Framework == "qbox" then
-    QBCore = exports["qbx-core"]:GetCoreObject() or exports["qbx_core"]:GetCoreObject()
 end
 
 RegisterNetEvent("shx-bodycam/server/openBodycam")
